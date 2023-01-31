@@ -1,0 +1,30 @@
+.marquee {
+    background-color: black;
+    padding: 1rem 0rem;
+
+}
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    
+}
+
+.text-1 {
+    margin-right: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.text-1 p {
+    color: #f59e0b;
+}
+
+
+
+.text-1 span:not(:last-child) {
+    margin-right: 2rem;
+}
+

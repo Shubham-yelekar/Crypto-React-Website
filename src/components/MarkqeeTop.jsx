@@ -5,7 +5,7 @@ import axios from 'axios'
 
 
 
-const Markqee_top = () => {
+const MarkqeeTop = () => {
 
   const [data, setData] = useState(null)
 
@@ -77,4 +77,4 @@ const Markqee_top = () => {
   )
 }
 
-export default Markqee_top
+export default MarkqeeTop

@@ -5,14 +5,15 @@ import Navbar from './components/Navbar'
 import Signup from './components/Signup'
 import Footer from './components/Footer'
 import Markqee from './components/Markqee'
-import Markqee_top from './components/Markqee-top'
+
+import MarkqeeTop from './components/MarkqeeTop'
 
 function App() {
   return (
     <div>
       <Navbar />
       <Hero />
-      <Markqee_top/>
+      <MarkqeeTop/>
       <Featured />
       <Markqee/>
       <Signup />
